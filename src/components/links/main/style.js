@@ -11,8 +11,8 @@ const Media = {
 
 export const Container = styled.div`
   min-height: 45rem;
-  width: 80%;
-  max-width: 80rem;
+  width: 90%;
+  max-width: 90rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
