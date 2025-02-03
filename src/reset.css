@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Sora", "Garamond", serif;
+  font-display: swap;
+  height: auto;
+  background-color: #ffffff;
+  /* Branco */
+  color: #1c1c1c;
+  /* Preto escuro */
+}
+
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: inherit;
+}
+
+input,
+textarea,
+button {
+  border: none;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1c1c1c;
+  /* Preto escuro */
+  border-radius: 2px;
+}
+
+button {
+  cursor: pointer;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #1c1c1c;
+  --dark-blue: #1b1e2b;
+  /* Azul escuro da imagem */
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-family: "Sora", sans-serif;
+}
+
+h2 {
+  font-size: 2.6rem;
+  font-family: "Sora", sans-serif;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-family: "Sora", sans-serif;
+}
+
+h4,
+summary,
+p {
+  font-size: 1.5rem;
+  font-family: "Garamond", serif;
+}
+
+@media screen and (max-width: 1220px) {
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  h3 {
+    font-size: 2.2rem;
+  }
+
+  h4,
+  summary,
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+  }
+
+  h3 {
+    font-size: 2.1rem;
+  }
+
+  h4,
+  summary,
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  h4,
+  summary,
+  p {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  h4,
+  summary,
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+a {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
