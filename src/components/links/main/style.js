@@ -52,6 +52,7 @@ export const Container = styled.div`
       padding-bottom: 0rem;
       margin-right: 10rem;
       margin-top: -5rem;
+      width: 100%;
     }
     img {
       width: 100%;
@@ -68,7 +69,8 @@ export const Container = styled.div`
     gap: 1rem;
     width: 50%;
     ${Media.Laptop} {
-      min-height: 50vh;
+      min-height: 30vh;
+      width: 100%;
       padding-top: 5rem;
     }
     .tittleNameContainer {
@@ -89,11 +91,14 @@ export const Container = styled.div`
       flex-direction: column;
       gap: 0.8rem;
       min-height: 60vh;
+      ${Media.Laptop} {
+        min-height: 30vh;
+      }
       a {
         transition: transform 0.3s ease-in-out;
         ${Media.Laptop} {
           width: 100%;
-          min-height: 60vh;
+          min-height: auto;
         }
         &:hover {
           transform: scale(1.1);
