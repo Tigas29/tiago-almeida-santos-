@@ -34,7 +34,7 @@ export default function MainPart() {
         <div className="tittleNameContainer col">
           <h1> Tiago Almeida Santos</h1>
           <hr />
-          <p> Estrategista de Marketing e Crescimento</p>
+          <p> Marketing e Perfomance</p>
         </div>
         <div className="cadsContainer col">
           {card.map((item) => (

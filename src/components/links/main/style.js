@@ -46,6 +46,7 @@ export const Container = styled.div`
     min-height: 100vh;
   }
   .leftSide {
+    width: 50%;
     padding-bottom: 5rem;
     ${Media.Laptop} {
       padding-bottom: 0rem;
@@ -65,6 +66,7 @@ export const Container = styled.div`
     min-height: 100vh;
     padding-top: 5rem;
     gap: 1rem;
+    width: 50%;
     ${Media.Laptop} {
       min-height: 50vh;
       padding-top: 5rem;
@@ -86,10 +88,12 @@ export const Container = styled.div`
       display: flex;
       flex-direction: column;
       gap: 0.8rem;
+      min-height: 60vh;
       a {
         transition: transform 0.3s ease-in-out;
         ${Media.Laptop} {
           width: 100%;
+          min-height: 60vh;
         }
         &:hover {
           transform: scale(1.1);
