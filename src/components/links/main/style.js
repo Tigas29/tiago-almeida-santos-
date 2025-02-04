@@ -43,16 +43,21 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     padding-right: 0;
+    min-height: 100vh;
   }
   .leftSide {
     padding-bottom: 5rem;
     ${Media.Laptop} {
       padding-bottom: 0rem;
       margin-right: 10rem;
-      margin-top: -10rem;
+      margin-top: -5rem;
     }
     img {
-      width: 100vw;
+      width: 100%;
+
+      ${Media.Laptop} {
+        width: 100vw;
+      }
     }
   }
 
@@ -61,7 +66,8 @@ export const Container = styled.div`
     padding-top: 5rem;
     gap: 1rem;
     ${Media.Laptop} {
-      padding-top: 0rem;
+      min-height: 50vh;
+      padding-top: 5rem;
     }
     .tittleNameContainer {
       position: relative;
