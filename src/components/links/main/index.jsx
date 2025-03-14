@@ -5,12 +5,12 @@ import banner2 from "../../../assets/links/banner 2.png";
 import banner3 from "../../../assets/links/banner 3.png";
 export default function MainPart() {
   const card = [
-    {
-      id: 1,
-      link: "https://wa.me/5511956829886?text=Ol%C3%A1!%20Tenho%20interesse%20na%20consultoria%20exclusiva%20para%20m%C3%A9dicos%20e%20gostaria%20de%20saber%20mais%20detalhes%20sobre%20como%20atrair%20novos%20pacientes%20diariamente.%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es?",
-      img: banner1,
-      description: "Consultoria Exclusiva para Médicos",
-    },
+    // {
+    //   id: 1,
+    //   link: "https://wa.me/5511956829886?text=Ol%C3%A1!%20Tenho%20interesse%20na%20consultoria%20exclusiva%20para%20m%C3%A9dicos%20e%20gostaria%20de%20saber%20mais%20detalhes%20sobre%20como%20atrair%20novos%20pacientes%20diariamente.%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es?",
+    //   img: banner1,
+    //   description: "Consultoria Exclusiva para Médicos",
+    // },
     {
       id: 2,
       link: "https://wa.me/5511956829886?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20a%20consultoria%20sob%20medida%20para%20ter%20um%20time%20estrat%C3%A9gico%20exclusivo%20para%20meu%20crescimento.%20Como%20funciona%20o%20processo?",
